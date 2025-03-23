@@ -1,0 +1,71 @@
+[	
+	{
+		"name": "Sturmtigr",
+		"unitType": "Siege",
+		"uniqueTo": "Germany",
+		"movement": 4,
+		"strength": 130,
+		"rangedStrength": 130,
+		"range": 1,
+		"cost": 500,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit", "Can move after attacking"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "sturmtigr"
+	},
+	{
+		"name": "Ratte",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 250,
+		"cost": 3000,
+		"requiredTech": "Combined Arms",
+		"uniques": ["No defensive terrain bonus",
+			"[-2] Sight", "Never appears as a Barbarian unit", "Consumes [3] [Iron]", "Consumes [2] [Oil]", "Consumes [1] [Aluminum]", "Cannot be purchased"],
+		"attackSound": "explosive"
+	},
+	{
+		"name": "SS Division",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 80,
+		"cost": 380,
+		"requiredTech": "Plastics",
+		"uniques": ["[+25]% Strength <vs [Wounded]> <when attacking>"]
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "ssdivision"
+	},
+	{
+		"name": "Dora",
+		"unitType": "Siege",
+		"uniqueTo": "Germany",
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 25,
+		"cost": 2000,
+		"requiredTech": "Ballistics",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-2] Sight", "Never appears as a Barbarian unit", "Cannot move", "Consumes [3] [Iron]", "Cannot be purchased"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "dora"
+	},
+	{
+		"name": "V-2",
+		"unitType": "Missile",
+		"replaces": "Guided Missile"
+		"uniqueTo": "Germany",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 180,
+		"requiredTech": "Radar",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "explosive"
+	},
+]
