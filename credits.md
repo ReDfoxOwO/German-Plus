@@ -1,1 +1,2 @@
-sounds taken from https://zvukogram.com
+sounds - https://zvukogram.com
+images - https://github.com/ReDfoxOwO
